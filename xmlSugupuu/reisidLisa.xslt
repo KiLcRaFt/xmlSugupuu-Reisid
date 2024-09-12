@@ -13,7 +13,7 @@
 		<h3>5. Kuva iga reisi kogumaksumuse, liites transport, majutuse, ekskursioonide ja muude kulude hinnad kokku.</h3>
 		<h3>6. Filtreeri ja kuva ainult need reisid, mille transport sisaldab lennureisi.</h3>
 		<h3>7. Sorteeri kõik reisid vastavalt hinnangule (nt kliendihinnang, kui selline väli on olemas XML-is, kui ei ole kasuta teine numbriline väli).</h3>
-				<h1>Sihtkoht</h1>
+			<h1>Sihtkoht</h1>
 			<xsl:for-each select="reisid/reis">
 				<xsl:sort select="hinnad" order="ascending"/>
 				<xsl:if test="number(hinnad) &lt; 1000">

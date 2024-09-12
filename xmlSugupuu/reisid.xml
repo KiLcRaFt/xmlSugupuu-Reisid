@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<reisid>
+<reisid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="reisid.xsd">
 	<reis reisiNumber="7216">
 		<lennujaamKood>YE-SN</lennujaamKood>
 		<reisinumber>7216</reisinumber>
